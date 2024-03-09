@@ -1,0 +1,54 @@
+* {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body h2 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    margin: 10px;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form button {
+    font-size: 14px;
+    max-width: 70px;
+    display: inline;
+}
+
+#nome,
+#email,
+#cpf,
+#cep,
+#telefone,
+#endereco {
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form input {
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
